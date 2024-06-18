@@ -1,9 +1,10 @@
-class Coche {  
-    String marca;
+#Below is Given a class which has two responsibilities 
+class  User:
+    def __init__(self, name: str):
+        self.name = name
+    
+    def get_name(self) -> str:
+        pass
 
-    Coche(String marca){ this.marca = marca; }
-
-    String getMarcaCoche(){ return marca; }
-
-    void guardarCocheDB(Coche coche){ ... }
-}
+    def save(self, user: User):
+        pass
